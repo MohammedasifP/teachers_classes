@@ -40,9 +40,8 @@ const genderfun=(task)=>{
     fetch(`https://asifbackendcode.herokuapp.com/teacher?page=1&size=4&order=${order}`).then(Response=>Response.json()).then(data=>{setTdata(data.teachers);setTPage(data.totalpages)}) 
 
 }
- 
- console.log(gender)
 
+ console.log(gender)
    return(
        <div>
        <div className="method">
