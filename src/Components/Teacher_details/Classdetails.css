@@ -1,0 +1,10 @@
+.details{
+    border: 1px solid black;
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
