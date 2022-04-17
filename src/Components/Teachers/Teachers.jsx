@@ -14,10 +14,10 @@ const [page,setPage]=useState(1)
 const [gender,setGender]=useState("")
 const [order,setOrder]=useState("")
 const navigate=useNavigate();
-// useEffect(()=>{
-//     if(!auth)
-//     // navigate("/login")
-// },[])  
+useEffect(()=>{
+    if(!auth)
+    // navigate("/login")
+},[])  
 const dispatch=useDispatch();
 
 useEffect(()=>{
