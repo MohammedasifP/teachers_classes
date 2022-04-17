@@ -1,0 +1,30 @@
+.tab{
+    width: 500px;
+    margin: auto;
+    margin-top: 160px;
+    border-color: blue;
+    color: green;
+
+}
+thead{
+    font-weight: bolder;
+}
+.pagination{
+    margin-top: 30px;
+}
+.pbtn1{
+    margin-left: -20px;
+    width: 100px;
+   
+    color: green;
+}
+.pbtn2{
+    margin-left: 30px;
+    width: 100px;
+   
+    color: green;
+}
+.method{
+    display: flex;
+    justify-content: space-around;
+}
