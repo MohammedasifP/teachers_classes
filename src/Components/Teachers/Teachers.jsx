@@ -2,7 +2,7 @@ import { useEffect } from "react"
 import { useDispatch } from "react-redux"
 import { useSelector } from "react-redux";
 import './Teachers.css'
-import { Navigate, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import { TEACHER_Action } from "../Redux/Teacher_Redux/Teachers_Action";
 import { useState } from "react";
 
@@ -41,7 +41,7 @@ const genderfun=(task)=>{
 
 }
 
- console.log(gender)
+ console.log(tdata)
    return(
        <div>
        <div className="method">
@@ -68,9 +68,9 @@ const genderfun=(task)=>{
                      {tdata.map((elem)=>{
                          return (
                              <tr>
-                                 <td>{elem.name}</td>
-                                 <td>{elem.age}</td>
-                                 <td>{elem.gender}</td>
+                             <td> <Link to={`/class/${elem._id}`}> {elem.name}</Link></td>
+                                 <td><Link to={`/class/${elem._id}`}>{elem.age}</Link></td>
+                                 <td><Link to={`/class/${elem._id}`}>{elem.gender}</Link></td>
                              </tr>
                          )
                      })}

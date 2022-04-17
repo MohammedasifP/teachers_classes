@@ -1,7 +1,7 @@
 .tab{
     width: 500px;
     margin: auto;
-    margin-top: 160px;
+    margin-top: 50px;
     border-color: blue;
     color: green;
 
@@ -27,4 +27,7 @@ thead{
 .method{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    background-color: green;
+    height: 50px;
 }
