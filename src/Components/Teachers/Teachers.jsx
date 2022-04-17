@@ -16,7 +16,7 @@ const [order,setOrder]=useState("")
 const navigate=useNavigate();
 useEffect(()=>{
     if(!auth)
-    // navigate("/login")
+    navigate("/login")
 },[])  
 const dispatch=useDispatch();
 
